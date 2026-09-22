@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Employee</title>
+</head>
+
+<body>
+
+    <h1>AI Employee Management System</h1>
+    <h2>Add New Employee</h2>
+
+    <form action="/add-employee" method="POST">
+
+        <label>Employee Code:</label><br>
+        <input type="text" name="employee_code" required><br><br>
+
+        <label>Full Name:</label><br>
+        <input type="text" name="full_name" required><br><br>
+
+        <label>Email:</label><br>
+        <input type="email" name="email" required><br><br>
+
+        <label>Phone:</label><br>
+        <input type="text" name="phone"><br><br>
+
+        <label>Department ID:</label><br>
+        <input type="number" name="department_id"><br><br>
+
+        <label>Designation:</label><br>
+        <input type="text" name="designation"><br><br>
+
+        <label>Joining Date:</label><br>
+        <input type="date" name="joining_date"><br><br>
+
+        <button type="submit">Add Employee</button>
+
+    </form>
+
+    <br>
+
+    <a href="/dashboard">
+        <button type="button">Back to Dashboard</button>
+    </a>
+
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HR Dashboard</title>
+</head>
+
+<body>
+
+    <h1>AI Employee Management System</h1>
+
+    <h2>HR Dashboard</h2>
+
+    <hr>
+
+    <h3>Quick Overview</h3>
+
+    <h4>Total Employees</h4>
+    <p>{{ total_employees }}</p>
+
+    <h4>Active Employees</h4>
+    <p>{{ active_employees }}</p>
+
+    <h4>Pending Documents</h4>
+    <p>{{ pending_documents }}</p>
+
+    <h4>Pending Leave Requests</h4>
+    <p>{{ pending_leaves }}</p>
+
+    <hr>
+
+    <h3>Employee Management</h3>
+
+  <a href="/add-employee">
+    <button type="button">Add Employee</button>
+</a> 
+    <button>View Employees</button>
+
+    <h3>Onboarding</h3>
+
+    <button>Start Onboarding</button>
+    <button>Documents</button>
+
+    <h3>Reports</h3>
+
+    <button>Attendance Report</button>
+    <button>Leave Report</button>
+
+    <br><br>
+
+    <a href="/logout">
+        <button>Logout</button>
+    </a>
+
+</body>
+</html>
